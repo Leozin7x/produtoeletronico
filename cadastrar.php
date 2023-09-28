@@ -5,10 +5,10 @@ require "ProdutoEletronico.php";
 require "RepositorioProdutoEletronico.php";
 
 //Instanciar o objeto
-$pessoa1 = new Pessoa("0002","Anderson Claudiney","100");
+$produtoeletronico1 = new ProdutoEletronico("motorola","moto g6","smartphone","1000","6polegadas");
 
 //Instancio o repositório para cadastrar
-$repositorioPessoa = new RepositorioPessoa();
+$repositorioProdutoEletronico = new Repositorioprodutoeletronico();
 
-$repositorioPessoa->cadastrar($pessoa1,$banco);
+$repositorioProdutoEletronico->cadastrar($produtoeletronico1,$banco);
 
